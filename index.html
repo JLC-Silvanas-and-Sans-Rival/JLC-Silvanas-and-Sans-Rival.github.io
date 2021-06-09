@@ -1,7 +1,7 @@
   <!-- Static catalog website -->
   <html>
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.1">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
     <!--
@@ -779,7 +779,7 @@
 
 
         .container{
-          zoom: 0.4 !important;
+          zoom: 0.4!important;
         }
 
         .call-icon{
@@ -788,7 +788,7 @@
 
         body{
           background: repeating-linear-gradient(
-            45deg,
+            0deg,
             rgb(129,214,207),
             rgb(129,214,207) 10px,
             rgb(116,79,86) 10px,
@@ -796,6 +796,20 @@
           );          
         }
       }
+
+      @media only screen and (max-width: 400px) {
+        .container{
+          zoom: 0.36!important;
+        }
+      }
+
+
+      @media only screen and (max-width: 350px) {
+        .container{
+          zoom: 0.34!important;
+        }
+      }
+
 
     </style>
   </head>
